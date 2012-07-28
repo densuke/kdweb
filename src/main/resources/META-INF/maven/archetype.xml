@@ -7,6 +7,7 @@
     <resource>src/main/webapp/WEB-INF/web.xml</resource>
     <resource>src/main/webapp/WEB-INF/context.xml</resource>
     <resource>src/main/webapp/index.jsp</resource>
+    <resource filtered="false">src/main/resources/images/logo.jpg</resource>
   </resources>
   <testSources>
     <source>src/test/java/server/AppTest.java</source>

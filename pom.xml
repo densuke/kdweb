@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>jp.fuga</groupId>
   <artifactId>kdweb</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.3-SNAPSHOT</version>
   <name>densuke's custom archetype(webapps)</name>
   <url>http://fuga.jp/</url>
   <properties>
