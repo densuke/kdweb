@@ -66,6 +66,10 @@
 	<artifactId>tomcat7-maven-plugin</artifactId>
 	<version>2.0-beta-1</version>
 	<configuration>
+  		<charset>UTF-8</charset>
+  		<server>fuga-tomcat</server>
+  		<update>true</update>
+  		<url>http://fuga.jp:8180/manager/text</url>
 	  <port>9999</port>
 	</configuration>
 	<executions>
@@ -95,6 +99,23 @@
 	  </execution>
 	</executions>
       </plugin>
+      <plugin>
+      	<groupId>org.apache.maven.plugins</groupId>
+      	<artifactId>maven-shade-plugin</artifactId>
+      	<version>1.7.1</version>
+      	<configuration>
+      		
+      	</configuration>
+      	
+      	<executions>
+      		<execution>
+      			<id>shade</id>
+      			<phase>package</phase>
+      			<goals><goal>shade</goal></goals>
+      		</execution>
+      	</executions>
+      </plugin>
+
     </plugins>
   </build>
 </project>
