@@ -67,9 +67,9 @@
 	<version>2.0-beta-1</version>
 	<configuration>
   		<charset>UTF-8</charset>
-  		<server>fuga-tomcat</server>
+  		<server>taiken</server>
   		<update>true</update>
-  		<url>http://fuga.jp:8180/manager/text</url>
+  		<url>http://serverXX/manager/text</url>
 	  <port>9999</port>
 	</configuration>
 	<executions>
