@@ -10,7 +10,7 @@ import ${groupId}.App;
 public class AppTest {
 
 	WebDriver driver;
-	String baseURL = "http://localhost:9999/";
+	String baseURL = "http://localhost:9999/${artifactId}";
 
 	@Before
 	public void setUp() {
@@ -19,12 +19,25 @@ public class AppTest {
 
 	@Test
 	public void test() {
-		String URL;
-		URL = baseURL + "${artifactId}/";
 
-		driver.get(URL);
-		assertEquals("こんにちは世界!", driver.getTitle());
+		driver.get(baseURL);
+		assertEquals("挨拶をしましょう", driver.getTitle());
+	}
+
+	@Test
+	public void msgTest() {
+		driver.get(baseURL);
+		String msg = driver.findElement(By.id("hw")).getText();
+		assertEquals((new App()).getMessage(), msg);
+	}
+
+	@Test
+	public void loadImage() {
+		driver.get(baseURL);
+		String msg = driver.findElement(By.id("logo")).getAttribute("src");
+		assertEquals("images/logo.jpg", msg);
 	}
 
 }
+
 
