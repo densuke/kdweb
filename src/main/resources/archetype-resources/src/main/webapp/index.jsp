@@ -1,4 +1,4 @@
-﻿<%@page language="java" contentType="text/html;charset=UTF-8" %>
+<%@page language="java" contentType="text/html;charset=UTF-8" %>
 <% request.setCharacterEncoding("UTF-8"); %>
 <%@page import="${groupId}.App" %>
 <% App a = new App(); %>
