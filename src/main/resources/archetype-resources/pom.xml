@@ -69,7 +69,7 @@
   		<charset>UTF-8</charset>
   		<server>taiken</server>
   		<update>true</update>
-  		<url>http://serverXX/manager/text</url>
+  		<url>http://serverXX:8080/manager/text</url> <!-- serverXXを指示に合わせて書き換えましょう -->
 	  <port>9999</port>
 	</configuration>
 	<executions>
