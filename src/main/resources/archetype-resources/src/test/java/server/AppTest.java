@@ -1,8 +1,8 @@
-package ${groupId}.server;
+package ${package}.server;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-import ${groupId}.App;
+import ${package}.App;
 
 public class AppTest {
 

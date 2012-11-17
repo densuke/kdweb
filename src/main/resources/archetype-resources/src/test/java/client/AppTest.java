@@ -1,11 +1,11 @@
-package ${groupId}.client;
+package ${package}.client;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-import ${groupId}.App;
+import ${package}.App;
 
 public class AppTest {
 

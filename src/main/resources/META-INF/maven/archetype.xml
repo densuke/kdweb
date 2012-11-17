@@ -1,9 +1,10 @@
 <archetype>
-  <id>mywebapp</id>
+  <id>kdweb</id>
   <sources>
     <source encoding="UTF-8">src/main/java/App.java</source>
   </sources>
   <resources>
+    <resource encoding="UTF-8">pom.xml</resource>
     <resource>src/main/webapp/WEB-INF/web.xml</resource>
     <resource>src/main/webapp/WEB-INF/context.xml</resource>
     <resource encoding="UTF-8">src/main/webapp/index.jsp</resource>
